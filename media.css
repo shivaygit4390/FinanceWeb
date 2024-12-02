@@ -1,0 +1,359 @@
+/*  Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+
+/* page1 */
+.banner-section{
+  padding: 1rem 2rem 4rem 2rem;
+}
+
+  /* page2 */
+    .page2 .features{
+        margin: 5rem 2rem 4.5rem 2rem;
+    }
+    .page2 .feature{
+        margin-bottom: 1rem;
+    }
+    .pb-advantage{
+        flex-direction: column;
+        gap: 0;
+    }
+    .adv1{
+        margin-left: 0 !important;
+    }
+
+    /* benifit media */
+    .benifits{
+        padding-left: 0;
+    }
+    .card {
+        margin: 0 40px;
+        margin-bottom: 2rem;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+        flex-direction: column;
+      }
+      .card img {
+        margin: -100px 0 30px 0;
+        width: 100%;
+        max-width: 1000px;
+      }
+      
+      .card button {
+        min-width: 160px;
+      }
+      .card .div{
+        text-align: left !important;
+      }
+      .investing img{
+        width: 100vw !important;
+      }
+      .subinv2{
+        padding: 2rem;
+      }
+      /* invest calculator */
+      .container-dx {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+      }
+  
+      .container-dx .left-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+  
+      .container-dx h1 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+  
+      .container-dx p {
+        text-align: center;
+        font-size: 0.9rem;
+      }
+  
+      .container-dx .calculator-buttons {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+  
+      .container-dx .explore-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+      }
+  
+      .container-dx .right-section {
+        padding: 15px;
+      }
+  
+      .container-dx .right-section h2 {
+        font-size: 1.2rem;
+        padding: 8px;
+      }
+  
+      .container-dx .form-group {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        top: 0;
+      }
+  
+      .container-dx .form-actions {
+        flex-direction: column;
+        top: 0;
+        gap: 10px;
+      }
+  
+      .container-dx .form-actions button {
+        font-size: 0.9rem;
+        padding: 8px;
+      }
+       /* ------- */
+      /* blog page 7 section */
+/* testimonials media page 8  */
+  .testimonials-sx{
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .testimonials-container-sx{
+    height: auto;
+  }
+/* footer */
+.top-footer{
+  justify-content: center;
+}
+
+      
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner-section{
+    padding: 1rem 2rem 4rem 2rem;
+  }
+
+
+/* nav */
+.nav1 .menu-list{
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.nav1 li{
+padding: 1rem 0 1rem 0;
+}
+.nav1{
+  padding-left: 4rem;
+}
+
+/* page2 */
+    .page2 .features{
+        margin: 5rem 2rem 4.5rem 2rem;
+    }
+    .page2 .feature{
+        margin-bottom: 1rem;
+    }
+    .pb-advantage{
+        flex-direction: column;
+        gap: 0;
+    }
+    .adv1{
+        margin-left: 0 !important;
+    }
+    /* benifit */
+    .investing img{
+        width: 100vw !important;
+      }
+      .subinv2{
+        padding: 2rem;
+      }
+      /* invest calculator */
+      .container-dx {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+      }
+  
+      .container-dx .left-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+  
+      .container-dx h1 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+  
+      .container-dx p {
+        text-align: center;
+        font-size: 0.9rem;
+      }
+  
+      .container-dx .calculator-buttons {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+  
+      .container-dx .explore-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+      }
+  
+      .container-dx .right-section {
+        padding: 15px;
+      }
+  
+      .container-dx .right-section h2 {
+        font-size: 1.2rem;
+        padding: 8px;
+      }
+  
+      .container-dx .form-group {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        top: 0;
+      }
+  
+      .container-dx .form-actions {
+        flex-direction: column;
+        top: 0;
+        gap: 10px;
+      }
+  
+      .container-dx .form-actions button {
+        font-size: 0.9rem;
+        padding: 8px;
+      }
+/* ---------- */
+      /* blog page 7 */
+      .blog-cards-container-nx {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .blog-card-nx {
+        max-width: 90%;
+      }
+      /* testimonials media page 8  */
+  .testimonials-sx{
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .testimonials-container-sx{
+    height: auto;
+  }
+  /* footer */
+.top-footer{
+  justify-content: center;
+}
+
+}
+
+/*  laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* page 1  */
+  .image-container img{
+    width: 136px;
+    height: 176px;
+  }
+  .banner{
+    gap: 3rem;
+  }
+/* page2 */
+    .page2 .features{
+        margin: 5rem 2rem 4.5rem 2rem;
+    }
+    .page2 .feature{
+        margin-bottom: 3rem;
+    }
+    .pb-advantage{
+       
+        gap: 5rem;
+    }
+    .adv1{
+        flex: 5 !important;
+    }
+    .adv2{
+        flex: 5 !important; 
+    }
+    .investing img{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    /* invest calcuator */
+    /* testimonials media page 8  */
+  .testimonials-sx{
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .testimonials-container-sx{
+    height: auto;
+  }
+    
+}
+
+/* Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+  /* page1 */
+  .image-container img{
+    width: 190px;
+    height: 202px;
+  }
+  .banner{
+    gap: 3rem;
+  }
+    .page2 .feature{
+        margin-bottom: 4rem;
+    }
+    .pb-advantage{
+        gap: 4rem !important;
+    }
+    .adv1{
+        flex: 4 !important;
+    }
+    .adv2{
+        flex: 6 !important; 
+    }
+    /* testimonials media page 8  */
+  .testimonials-sx{
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .testimonials-container-sx{
+    height: auto;
+  }
+
+
+
+}
+
+/*  large screens */
+@media (min-width: 1201px) {
+
+  /* page 1 */
+  .image-container img{
+    width: 219px;
+    height: 250px;
+  }
+  .banner{
+    gap: 3rem;
+  }
+    .page2 .feature{
+        margin-bottom: 4rem;
+    }
+    .testimonials-container-sx{
+      padding-right: 8rem;
+    }
+    .testimonials-container-sx{
+      height: auto;
+    }
+
+}
+
+@media (max-width: 840px) {
+  .banner .image-container {
+    display: none;
+  }
+}
